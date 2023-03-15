@@ -33,5 +33,5 @@ RUN adduser -D abc && chmod +x /wstunnel
 USER abc
 WORKDIR /
 
-CMD wstunnel --server wss://0.0.0.0:8080
+CMD /wstunnel --server wss://0.0.0.0:8080
 
